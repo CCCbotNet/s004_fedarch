@@ -1,16 +1,22 @@
 # 🏛️ s004_fedarch — ♾️ WeOwnNet 🌐 #WeOwnSeason004
-
-**FedArch Governance for Cooperative AI** — Best Practices, Protocols, Case Studies, Guides, Projects, Templates, and Workspace Prompts.
+```text
+═══════════════════════════════════════════════════════════════════════════════
+## FedArch Governance for Cooperative AI
+## v4.29.2-r1 ✅ — W29 D7 (Sun 19 Jul 2026)
+## UPDATED: MCT-488 GH LIVE · 130 lessons · 30 immutable rules · 8 MetaCouncil members with composites
+═══════════════════════════════════════════════════════════════════════════════
 
 | Field | Value |
 |:------|:-------|
-| **Version** | **v4.29.1-r2** ✅ |
+| **Version** | **v4.29.2-r1** ✅ |
 | **Season** | #WeOwnSeason004 🚀 |
 | **Ecosystem** | ♾️ [WeOwnNet](https://github.com/WeOwnNet) 🌐 |
 | **Chat Platform** | 💬 [WeOwnChat](https://github.com/WeOwnChat) — powered by AnythingLLM.com + hardened by Minimus.io |
 | **Owner** | [@GTM](https://github.com/CCCbotNet) (yonks｜🤖🏛️🪙｜Jason Younker ♾️) |
 | **License** | Open-source — #ResponsibleAgenticAI #GoldStandard |
-| **Status** | 🟢 **LIVE** — W29 D5 |
+| **Status** | 🟢 **LIVE** — W29 D7 |
+| **R-011** | ⬜ PENDING (AI CANNOT approve — Lesson #127) |
+```
 
 ---
 
@@ -47,7 +53,7 @@
 FedArch means:
 - **NO single model** rules the ecosystem
 - **NO single agent** has unilateral authority (except R-011 — @GTM 🎯)
-- **7 MetaCouncil agents** across 5 model families govern together
+- **8 MetaCouncil agents** across 4 model families govern together
 - **9 CCC operators** each own their domain
 - **Standards are shared** — implementation is distributed
 
@@ -60,6 +66,7 @@ FedArch means:
 | **BP-404 🚨** | **Zero-Response Avoidance.** The agent MUST produce visible output. |
 | **REF-FIRST 📋** | Every response starts with a day-verified reference ID. |
 | **#WeOwnVer** | `v{S}.{W}.{R}-r{REV}` — Season.Week.Release.Revision. Weekly cadence. |
+| **#7DF** | **7-Dimension Framework** — MCT-488 scoring standard. 7 dimensions > flat 1-100. |
 
 ---
 
@@ -68,9 +75,9 @@ FedArch means:
 ```
 s004_fedarch/
 ├── MetaCouncil.md            # MetaCouncil charter, members, voting
-├── README.md                 # This file — v4.29.1-r2
+├── README.md                 # This file — v4.29.2-r1
 ├── WeOwnSeason004.md         # Current Season Version Reference
-├── _SYS_/                    # System documents — shared kernel, best practices, protocols
+├── _SYS_/                    # System documents
 │   ├── SharedKernel.md       # Ecosystem-wide constants and definitions
 │   ├── BEST-PRACTICES.md     # BP-4xx series best practices
 │   ├── PROTOCOLS.md          # L-4xx series protocols
@@ -82,13 +89,15 @@ s004_fedarch/
 │   ├── BP-401.md             # Tool Execution & Source Disclosure
 │   ├── D-070_FELG_Culture.md # 🎉💰📚🫶 FELG culture framework
 │   ├── D-468.md              # #ScoreTheScorers — Canonical Glossary of Terms
-│   └── LESSONS_2026-07-17.md # 100+ codified lessons
+│   ├── **MCT-488.md**        # **#MetaCouncil Compilation Template v4.29.2-r7 🚀 GH LIVE**
+│   └── LESSONS_2026-07-17.md # 130+ codified lessons
 ├── _GUIDES_/                 # Onboarding and reference guides
 ├── _PROJECTS_/               # Project documents
-│   ├── PRJ-429.md            # #BrandBuildOutMonth (PRJ-402) — Supabase INFRASTRUCTURE
+│   ├── PRJ-429.md            # #BrandBuildOutMonth — Supabase INFRASTRUCTURE
 │   └── PRJ-430.md            # #FedArch FOCUS {2026-W30} — MetaCouncil expansion
 ├── _PROMPTS_/                # Workspace prompts
-│   └── PROMPT-INT-B001-CCC-GTM.md  # #GoldStandard — GTM workspace prompt v4.2.3.1-r3
+│   ├── PROMPT-INT-B001-CCC-GTM.md  # @GTM workspace prompt v4.29.2-r2
+│   └── ... (per CCC operator)
 ├── _TEMPLATES_/              # Document templates
 │   ├── TMPL-007.md           # GH commit message template
 │   └── TMPL-401.md           # #GoldStandard CCC workspace prompt template
@@ -104,36 +113,41 @@ s004_fedarch/
 | Tier | Type | Examples | Authority |
 |:----:|:-----|:---------|:---------:|
 | **1** | 🏛️ **Immutable Rules** | R-011, R-044, R-194, R-218 | MetaCouncil + R-011 |
-| **2** | 🔒 **Immutable Lessons** | #1-#101 (23 immutable, 78 active) | Past incidents + R-011 |
+| **2** | 🔒 **Immutable Lessons** | #1-#130 (30 immutable, 100 active) | Past incidents + R-011 |
 | **3** | 📋 **Best Practices** | BP-045, BP-061, BP-065, BP-068, BP-070, BP-075, BP-404 | Governance |
 | **4** | 📚 **Protocols** | L-097, L-141, L-203, L-211, L-224, L-406 | Governance |
 | **5** | 🚀 **Projects** | PRJ-429, PRJ-430, PRJ-455 | @GTM + MetaCouncil |
-| **6** | 📖 **Case Studies** | CS-429.1 | Post-incident documentation |
+| **6** | 📖 **Case Studies** | CS-429.1, CS-415.1 | Post-incident documentation |
 
 ### Key Standards
 
 | Standard | Description | Version |
 |:---------|:------------|:-------:|
 | **#GoldStandard** | S004 Enhanced CCC Template — base for all workspace prompts | TMPL-401 v4.2.2.1-r2 |
-| **#WeOwnVer** | `v{S}.{W}.{R}-r{REV}` — Season.Week.Release.Revision | v4.29.1-r2 |
-| **#FedArch FOCUS** | Weekly sprint theme — W29 = BrandBuildOut, W30 = MetaCouncil Expansion | Weekly |
+| **#WeOwnVer** | `v{S}.{W}.{R}-r{REV}` — Season.Week.Release.Revision | v4.29.2-r1 |
+| **#7DF** | 7-Dimension Framework — MCT-488 scoring standard | Sage 🪷 |
+| **#FedArch FOCUS** | Weekly sprint theme — W30 = MetaCouncil Expansion | Weekly |
 
 ---
 
 ## §4. 🏰 MetaCouncil — Cross-Model AI Governance
 
-**8 Active Members** across 4 model families — a federated council where NO single model dominates:
+**8 Active Members** across 4 model families — ranked by composite score from 7 independent evaluators (MCT-488 #ScoreTheScorers):
 
-| Seat | Agent | Model | Instance | Role |
-|:----:|:------|:------|:--------:|:-----|
-| 🥇 | Surge ⚡ | Qwen 3.7 Max | INT-M02 | Tech/Ops, #GrandMetaAgent |
-| 🥈 | Sage 🪷 | Z.ai GLM 5.2 | INT-P05 | Bilingual VSA & Verification |
-| 🥉 | DeepPro 🌊 | DeepSeek V4 Pro | INT-S004 | Deep Research & Auditing |
-| 4 | MiMo 🧪 | MiMo-V2.5-Pro | INT-S004 | Logic & Mathematics |
-| 5 | DRP.bot P05 🛡️ | DeepSeek V4 Flash | INT-P05 | Deep Research |
-| 6 | DRP.bot P08 🛡️ | DeepSeek V4 Flash | INT-P08 | Deep Research |
-| 7 | Aegis 🛡️ | Qwen 3.7 Max | INT-P08 | Security & Auditing |
-| 8 | DRP-Sprout 🌿 | Z.ai GLM 5.2 | INT-P05 | Bilingual Research |
+| Seat | Agent | Model | Instance | Composite | Role |
+|:----:|:------|:------|:--------:|:---------:|:-----|
+| 🥇 | **Sage 🪷** | Z.ai GLM 5.2 | INT-P05 | **96.7** | Bilingual VSA & Verification |
+| 🥈 | **DeepPro 🌊** | DeepSeek V4 Pro | INT-S004 | **94.0** | Deep Research & Auditing |
+| 🥉 | **DRP.bot P05 🛡️** | DeepSeek V4 Flash | INT-P05 | **92.9** | Deep Research |
+| 4 | **Surge ⚡** | Qwen 3.7 Max | INT-M02 | **90.9** | Tech/Ops, #GrandMetaAgent |
+| 5 | **Aegis 🛡️** | Qwen 3.7 Max | INT-P08 | **90.3** | Security & Auditing |
+| 6 | **DRP.bot P08 🛡️** | DeepSeek V4 Flash | INT-P08 | **87.7** | Deep Research |
+| 7 | **DRP-Sprout 🌿** | Z.ai GLM 5.2 | INT-P05 | **87.1** | Bilingual Research |
+| 8 | **MiMo 🧪** | INT-S004 | MiMo-V2.5-Pro | **86.3** | Logic & Mathematics |
+
+### MCT-488 Reference
+
+> **MCT-488 v4.29.2-r7 is GH LIVE at `_GOVERNANCE_/MCT-488.md`.** The #MetaCouncil Compilation Template — single source of truth for transforming 8 independent agent opinions into a COUNCIL ASSESSMENT. Features: #7DF scoring, Cross-Evaluation Matrix (8×8), Self-Score Honesty Index, ASCII Trend Charts, 30 codified lessons. R-011 explicitly granted by @GTM at 19:44 MDT W29 D7.
 
 ### Retired
 
@@ -157,9 +171,9 @@ s004_fedarch/
 
 | Instance | URL | Agents |
 |:---------|:----|:-------|
-| **INT-B001** | WeOwnLLM.BurnedOut.xyz | GTM 🎯 |
-| **INT-B002** | WeOwnLLM.F1visa.net | MWK 🕺, NIK 🛂 |
-| **INT-P05** | PRO.WeOwn.Tools | Sage 🪷, Sprout 🌿, DRP.bot P05 🛡️ |
+| **INT-B001** | WeOwnChat.BurnedOut.xyz | GTM 🎯, THY 🧮 |
+| **INT-B002** | WeOwnChat.F1visa.net | MWK 🕺, NIK 🛂 |
+| **INT-P05** | PRO.WeOwn.Tools | Sage 🪷, Sprout 🌿, DRP.bot P05 🛡️, LFG ♍️, LAW ⚖️, GID ⚾️ |
 | **INT-P08** | Dev.WeOwn.Tools | Aegis 🛡️, DRP.bot P08 🛡️, CTO 🧱, SHD 🇵🇰, MWK 🕺, PLT 💯, NIK 🛂 |
 | **INT-S004** | s004.ccc.bot | DeepPro 🌊, MiMo 🧪 |
 | **INT-M02** | meta-Qwen.WeOwn.Tools | Surge ⚡ |
@@ -168,15 +182,17 @@ s004_fedarch/
 
 | CCC | Operator | Role | Instance |
 |:----|:---------|:-----|:--------:|
-| **GTM 🎯** | @GTM | Governance Coordinator | INT-B001 |
-| **THY 🧮** | @THY | Ecosystem CFO | INT-B001 |
+| **GTM 🎯** | @GTM | Governance + Chief Digital Alchemist | INT-B001 |
+| **THY 🧮** | @THY | Ecosystem CEO + CFO | INT-B001 |
+| **LFG ♍️** | @LFG | Coach / #BizDev / #MemeLord | INT-P05 |
 | **CTO 🧱** | @CTO | KeyCloak / Identity | INT-P08 |
-| **SHD 🇵🇰** | @SHD | SigNoz / Full Stack Dev | INT-P08 |
+| **SHD 🇵🇰** | @SHD | Full Stack Dev / SigNoz / Observability | INT-P08 |
 | **MWK 🕺** | @MWK | WeOwnChat / Build | INT-P08 |
-| **PLT 💯** | @PLT | Supabase / Infra | INT-P08 |
-| **NIK 🛂** | @NIK | F1Visa / Product | INT-P08 |
-| **PAT 🎨** | @PAT | FELG / Brand | INT-P05 |
+| **PLT 💯** | @PLT | Supabase / Infra / k8s + DOKS | INT-P08 |
+| **NIK 🛂** | @NIK | F1Visa / Product / WordPress SME | INT-P08 |
+| **PAT 🎨** | @PAT | FELG / Brand / Product | INT-P05 |
 | **LAW ⚖️** | @LAW | Luma / Calendar | INT-P05 |
+| **GID ⚾️** | @GID | Volcarian Agent Operator | INT-P05 |
 
 ---
 
@@ -189,8 +205,9 @@ s004_fedarch/
 | 1 | Copy the #GoldStandard template from `_TEMPLATES_/TMPL-401.md` |
 | 2 | Customize for your CCC code, model, and role |
 | 3 | Update your workspace prompt in WeOwnChat |
-| 4 | Read the 100+ lessons in `_GOVERNANCE_/LESSONS_2026-07-17.md` |
-| 5 | Begin creating governance documents under FedArch |
+| 4 | Read the 130+ lessons in `_GOVERNANCE_/LESSONS_2026-07-17.md` |
+| 5 | Study MCT-488 at `_GOVERNANCE_/MCT-488.md` for #7DF scoring methodology |
+| 6 | Begin creating governance documents under FedArch |
 
 ### For Contributors
 
@@ -200,6 +217,7 @@ s004_fedarch/
 | 2 | Follow TMPL-007 for commit messages |
 | 3 | Ensure all documents follow #WeOwnVer: `v{S}.{W}.{R}-r{REV}` |
 | 4 | Include BP-075 self-verifying footer in all governance docs |
+| 5 | Read §5 (Immutable Rules) — especially #127 (R-011) and #128 (Drift Gate) |
 
 ### For MetaCouncil Candidates
 
@@ -219,13 +237,14 @@ s004_fedarch/
 | **Season** | #WeOwnSeason004 🚀 |
 | **Current Week** | W29 (BrandBuildOutMonth) |
 | **Next Week Focus** | W30 — MetaCouncil Expansion (PRJ-430) |
-| **Total Lessons** | 101 (#1 → #101) |
-| **Immutable Rules** | 23 |
-| **Active MetaCouncil Members** | 7 |
-| **Model Families** | 5 (expanding to 7 in W30) |
+| **Total Lessons** | **130** (#1 → #130) |
+| **Immutable Rules** | **30** |
+| **FINAL WARNINGS Active** | 3 (#127 R-011, #128 Drift Gate, DeepResearch) |
+| **Active MetaCouncil Members** | **8** (with composite rankings) |
+| **Model Families** | 4 (expanding to 6 in W30) |
 | **Core Team CCCs** | 9 |
-| **Case Studies** | 1 (CS-429.1) |
-| **Projects** | 1 (PRJ-430) |
+| **Governance Documents** | **MCT-488.md** 🚀 — #ScoreTheScorers Compilation Template |
+| **Workspace Prompts** | PROMPT-INT-B001-CCC-GTM v4.29.2-r2 |
 | **Architecture** | ✅ **Federated** (NOT Federal) — distributed cooperative nodes |
 | **Fabrications** | **0 ✅** |
 
@@ -241,11 +260,11 @@ s004_fedarch/
 | Field | Value |
 |:------|:-------|
 | **Document ID** | README.md |
-| **Version** | **v4.29.1-r2** ✅ |
-| **Date** | 17 Jul 2026 — W29 D5 (Friday) |
+| **Version** | **v4.29.2-r1** ✅ |
+| **Date** | 19 Jul 2026 — W29 D7 (Sunday) |
 | **Agent Author** | AI:@GTM 🎯 @ INT‑B001:CCC (WeOwnChat) |
-| **CCC-ID** | GTM_2026-W29_5029 |
-| **#masterCCC** | GTM_2026-W29_5029 |
+| **CCC-ID** | GTM_2026-W29_7029 |
+| **#masterCCC** | GTM_2026-W29_7029 |
 | **Repository** | github.com/CCCbotNet/s004_fedarch |
 | **Ecosystem** | ♾️ WeOwnNet 🌐 |
 | **Platform** | 💬 WeOwnChat — powered by AnythingLLM.com + hardened by Minimus.io |
@@ -253,14 +272,18 @@ s004_fedarch/
 | **Owner** | @GTM (yonks｜🤖🏛️🪙｜Jason Younker ♾️) |
 | **Status** | 🟢 **LIVE — READY FOR GH PUSH** |
 
-### r1 → r2 Corrections
+### v4.29.1-r2 → v4.29.2-r1 Changes
 
-| Correction | r1 (wrong) | r2 (corrected) |
-|:-----------|:-----------|:---------------|
-| **Architecture Definition** | "Federal Architecture" | **"Federated Architecture"** |
-| **Philosophy Section** | Missing | **Added: Federated vs Federal table, The Federated Philosophy** |
-| **Lesson Registry** | 100 lessons | **101 lessons (+ #101)** |
-| **Version** | v4.29.1-r1 | **v4.29.1-r2** |
+| Change | r2 (old) | r1 (new) |
+|:-------|:---------|:---------|
+| **Version** | v4.29.1-r2 | **v4.29.2-r1** |
+| **Total Lessons** | 101 | **130 (+29)** |
+| **Immutable Rules** | 23 | **30 (+7)** |
+| **MCT-488 Reference** | Not present | **GH LIVE, composites, #7DF** |
+| **MetaCouncil** | 7 members, no composites | **8 members with composite scores** |
+| **Workspace Prompt** | v4.2.3.1-r3 | **v4.29.2-r2** |
+| **FINAL WARNINGS** | Not present | **3 active** |
+| **R-011 Status** | Not documented | **⬜ PENDING (AI CANNOT approve)** |
 
 ### Key Metrics
 
@@ -268,21 +291,22 @@ s004_fedarch/
 |:-------|:------|
 | Total Sections | 8 |
 | Fabrications | **0 ✅** |
-| WeOwnVer | **v4.29.1-r2** ✅ (Month removed per #100, FedArch corrected per #101) |
+| WeOwnVer | **v4.29.2-r1** ✅ |
+| R-011 | ⬜ PENDING |
 
 <!-- CONTENT-HASH-BOUNDARY -->
-### ✅ BP-075 CANONICAL HASH GENERATED [@GTM:ADMIN generated @ 2026-07-17 09:09 MDT]
-Content-SHA256: 1a692a093db9638dfd86aa7d795f38dd4bc7932d6990216d3c50939cbf93ada6
-FEDARCH-CANARY: 1a692a09
-CHARACTERS: 11390
-WORDS: 1800
-LINES: 288
+### ✅ BP-075 CANONICAL HASH GENERATED [@GTM:ADMIN generated @ 2026-07-19 23:38 MDT]
+Content-SHA256: d3e58136dffe8ec6db49eff38a2849798fc1d5134ab35f167d02683032652535
+FEDARCH-CANARY: d3e58136
+CHARACTERS: 13219
+WORDS: 2081
+LINES: 312
 
 ═══ ═══ ═══ ═══ ═══ ═══
 ```
 
 ---
 
-#FlowsBros #FedArch #WeOwnSeason004 #s004_fedarch #README #FederatedArchitecture #GoldStandard #Governance #MetaCouncil #WeOwnChat #W29D5 #Lesson101
+#FlowsBros #FedArch #WeOwnSeason004 #s004_fedarch #README #v4292r1 #MCT488 #130Lessons #30ImmutableRules #MetaCouncil #Composites #7DF #FederatedArchitecture #GoldStandard #WeOwnChat #W29D7
 
 ♾️ WeOwnNet 🌐 ● 🏡 Real Estate and 🤝 cooperative ownership for everyone ● An 🤗 inclusive community, by 👥 invitation only.
